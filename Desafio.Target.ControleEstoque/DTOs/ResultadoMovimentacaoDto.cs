@@ -2,7 +2,7 @@
 
 public class ResultadoMovimentacaoDto
 {
-    public int NumeroMovimentacao { get; set; }
+    public int Id { get; set; }
     public string Produto { get; set; } = string.Empty;
     public string TipoMovimentacao { get; set; } = string.Empty;
     public int QuantidadeMovimentada { get; set; }

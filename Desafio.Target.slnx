@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Desafio.Target.Comissao/Desafio.Target.Comissao.csproj" />
+  <Project Path="Desafio.Target.ControleEstoque/Desafio.Target.ControleEstoque.csproj" Id="54d6f7e6-ce45-41f7-8755-626ff2c67163" />
 </Solution>

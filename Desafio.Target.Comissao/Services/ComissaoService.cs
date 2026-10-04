@@ -16,14 +16,14 @@ public class ComissaoService : IComissaoService
         }).ToList();
     }
 
-    private decimal CalcularComissao(decimal valor)
+    private static decimal CalcularComissao(decimal valor)
     {
-        decimal umPorCento = 0.01m;
-        decimal cincoPorCento = 0.05m;
+        decimal opcao1 = 0.01m;
+        decimal opcao2 = 0.05m;
 
         if (valor < 100) return 0;
-        if (valor < 500) return valor * umPorCento;
+        if (valor < 500) return valor * opcao1;
 
-        return valor * cincoPorCento;
+        return valor * opcao2;
     }
 }

@@ -14,13 +14,13 @@ Calcula a comissão dos vendedores com base no valor das vendas.
 * De R$ 100,00 até R$ 499,99 → 1%
 * A partir de R$ 500,00 → 5%
 
-Os dados das vendas são lidos de um arquivo JSON.
+Os dados das vendas são lidos de um arquivo JSON com os dados que foram disponibilizados.
 
 ---
 
 ### 2 - Controle de Estoque
 
-Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias.
+Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias, funcionando em tempo de execução.
 
 Cada movimentação possui:
 

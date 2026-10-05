@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Desafio.Target.CalcularJuros/Desafio.Target.CalcularJuros.csproj" Id="6153034c-3731-48c0-ba10-b649956ae1c6" />
   <Project Path="Desafio.Target.Comissao/Desafio.Target.Comissao.csproj" />
   <Project Path="Desafio.Target.ControleEstoque/Desafio.Target.ControleEstoque.csproj" Id="54d6f7e6-ce45-41f7-8755-626ff2c67163" />
 </Solution>

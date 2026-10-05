@@ -1,6 +1,6 @@
 # Desafios da Target Sistemas
 
-Repositório com os três desafios desenvolvidos em C# e .NET, com foco em lógica de programação, regras de negócio, organização e boas práticas de código.
+Repositório com os três desafios desenvolvidos em C# e .NET, onde busquei trabalhar com foco na lógica de programação, regras de negócio, organização e boas práticas de código.
 
 ## Desafios
 

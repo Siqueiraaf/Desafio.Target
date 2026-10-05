@@ -20,7 +20,7 @@ Os dados das vendas são lidos de um arquivo JSON com os dados que foram disponi
 
 ### 2 - Controle de Estoque
 
-Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias, funcionando em tempo de execução.
+Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias, armazeando e restornando os dados em tempo de execução.
 
 Cada movimentação possui:
 

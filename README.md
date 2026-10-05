@@ -1,6 +1,6 @@
 # Desafios da Target Sistemas
 
-Repositório com os três desafios desenvolvidos em C# e .NET, com foco em lógica de programação, regras de negócio e organização do código.
+Repositório com os três desafios desenvolvidos em C# e .NET, com foco em lógica de programação, regras de negócio, organização e boas práticas de código.
 
 ## Desafios
 
@@ -14,13 +14,13 @@ Calcula a comissão dos vendedores com base no valor das vendas.
 * De R$ 100,00 até R$ 499,99 → 1%
 * A partir de R$ 500,00 → 5%
 
-Os dados das vendas são lidos de um arquivo JSON com os dados que foram disponibilizados.
+Os dados das vendas são lidos de um arquivo JSON com os dados disponibilizados para o desafio.
 
 ---
 
 ### 2 - Controle de Estoque
 
-Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias, armazeando e restornando os dados em tempo de execução.
+Permite lançar movimentações de estoque dos produtos informados no arquivo JSON, realizando entradas ou saídas de mercadorias, armazenando e retornando os dados em tempo de execução.
 
 Cada movimentação possui:
 
@@ -46,7 +46,7 @@ O projeto utiliza `decimal` para trabalhar com valores monetários e realiza val
 
 ---
 
-## Tecnologias e boas praticas que utilizei
+## Tecnologias e boas práticas utilizadas
 
 * C#
 * .NET
@@ -56,6 +56,22 @@ O projeto utiliza `decimal` para trabalhar com valores monetários e realiza val
 * Interfaces
 * Services
 * Programação Orientada a Objetos
+* Separação de responsabilidades
+* Validação de dados
+
+## Estrutura dos projetos
+
+Os desafios foram separados em projetos independentes:
+
+```text
+Desafio.Target
+│
+├── Desafio.Target.Comissao
+├── Desafio.Target.ControleEstoque
+└── Desafio.Target.CalcularJuros
+```
+
+Cada projeto possui sua própria implementação e pode ser executado de forma independente.
 
 ## Como executar
 
@@ -70,8 +86,18 @@ Entre na pasta do desafio desejado e execute:
 ```bash
 dotnet run
 ```
-## Observação
 
-Os projetos foram mantidos de forma simples e objetiva, de acordo com a proposta dos desafios.
+Exemplo:
 
-Não utilizei Docker, pois os requisitos apresentados não indicavam a necessidade de containerização. A minha intenção foi manter os projetos com uma estrutura enxuta, facilitando a execução, entendimento e avaliação das soluções.
+```bash
+cd Desafio.Target.Comissao
+dotnet run
+```
+
+## Decisões técnicas
+
+Os projetos foram desenvolvidos como aplicações de console, mantendo uma estrutura simples e objetiva de acordo com a proposta dos desafios.
+
+Foram utilizados DTOs, interfaces e services para organizar o código e separar as responsabilidades, mantendo as regras de negócio isoladas das demais partes da aplicação.
+
+Não utilizei Docker, pois os requisitos apresentados não indicavam a necessidade de containerização. A intenção foi manter os projetos com uma estrutura enxuta, facilitando a execução, o entendimento e a avaliação das soluções.
